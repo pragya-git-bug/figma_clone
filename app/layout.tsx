@@ -13,7 +13,7 @@ const worksans = Work_Sans({
 
 export const metadata: Metadata = {
   title: "Figma Clone",
-  description: "A minimalist figma clone using fabric and liveblocks for realtime collabration",
+  description: "A minimalist figma clone using fabric and liveblocks for realtime collaboration",
 };
 
 export default function RootLayout({
