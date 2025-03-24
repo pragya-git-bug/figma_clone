@@ -23,7 +23,8 @@ const CursorChat = ({ cursor, cursorState, setCursorState, updateMyPresence }: C
     } else if (e.key === 'Escape') {
       setCursorState({
         mode: CursorMode.Chat,
-        previousMessage: cursorState.previousMessage, // Keep previous message
+        previousMessage: cursorState.previousMessage,
+         // Keep previous message
         message: '', // Clear input
       });
     }
